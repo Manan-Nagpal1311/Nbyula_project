@@ -1,0 +1,23 @@
+1. user schema - 
+ i Name string
+ii Email string
+iii Contact Phone Number string
+iv applicant boolean
+
+2. Job details -
+i Job Title string
+ii Job Desc string
+iii Location string
+iv CreatedAt dateTime
+v user id
+vi active
+vii archive boolean
+
+3. applicant details
+i user id number
+ii interested boolean
+iv job id
+
+user (job id =1 )
+applicant (job id = 1, interest)
+
